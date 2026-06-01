@@ -135,14 +135,6 @@ h3 {
   color: hsl(220, 30%, 25%);
 }
 
-#chi-sono p:first-of-type::first-letter {
-  font-size: 3rem;
-  font-weight: bold;
-  float: left;
-  margin-right: 6px;
-  color: hsl(220, 60%, 30%);
-}
-
 /* Sezione successiva: clear del float dell'avatar */
 #competenze {
   clear: both;
@@ -281,6 +273,13 @@ button {
   h3 {
     margin-left: 20px;
   }
+  #chi-sono p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color: hsl(220, 60%, 30%);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -317,5 +316,12 @@ button {
   }
   h3 {
     margin-left: 20px;
+  }
+  #chi-sono p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color: hsl(220, 60%, 30%);
   }
 }
