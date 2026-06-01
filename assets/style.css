@@ -245,12 +245,6 @@ button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
-  color: hsl(45, 90%, 80%);
-  background-color: hsl(220, 60%, 45%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
 /* Footer */
 #site-footer {
   background-color: hsl(220, 40%, 15%);
@@ -271,8 +265,12 @@ button:hover {
   section {
     padding: 32px;
   }
+  section p {
+    margin-left: 20px;
+  }
   .avatar {
     float: left;
+    margin-right: 20px;
   }
   input/textarea {
     width: 60%;
@@ -280,8 +278,8 @@ button:hover {
   button {
     width: auto;
   }
-  .table-wrapper {
-    width: 100%;
+  h3 {
+    margin-left: 20px;
   }
 }
 
@@ -299,13 +297,25 @@ button:hover {
   section {
     padding: 32px;
   }
+  section p {
+    margin-left: 20px;
+  }
   .avatar {
     float: left;
+    margin-right: 20px;
   }
   input/textarea {
     width: 60%;
   }
   button {
     width: auto;
+  }
+  button:hover {
+    color: hsl(45, 90%, 80%);
+    background-color: hsl(220, 60%, 45%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  h3 {
+    margin-left: 20px;
   }
 }
